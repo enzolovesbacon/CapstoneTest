@@ -1,0 +1,322 @@
+TCapstoneTest
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/Info.plist /Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest-Info.plist
+cProcessPCH /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/PrecompiledHeaders/CapstoneTest-Prefix-eoasqfgpebryktglpxsabehqlmao/CapstoneTest-Prefix.pch.pch CapstoneTest/CapstoneTest-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest.o /Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest_info.o /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/DerivedSources/CapstoneTest_info.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/MacOS/CapstoneTest normal x86_64
+cCopyStringsFile /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/Resources/en.lproj/InfoPlist.strings CapstoneTest/en.lproj/InfoPlist.strings
+cTouch /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c000000005243E79F00000000000000AA
+t1380181919
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000052E835AA000000000000044C
+t1390949802
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052E835AA00000000000001DB
+t1390949802
+s475
+
+N/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest-Info.plist
+c00000000531764D100000000000003AB
+t1394042065
+s939
+
+N/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest-Prefix.pch
+c00000000531764D10000000000000079
+t1394042065
+s121
+
+N/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest.c
+c000000005317694E00000000000001D3
+t1394043214
+s467
+
+N/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/capstone/libcapstone.a
+c00000000531762BA0000000000074198
+t1394041530
+s475544
+
+N/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/en.lproj/InfoPlist.strings
+c00000000531764D1000000000000002D
+t1394042065
+s45
+
+N/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/DerivedSources/CapstoneTest_info.c
+c00000000531769580000000000000263
+t1394043224
+s611
+
+N/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest.LinkFileList
+c000000005317695800000000000000A2
+t1394043224
+s162
+
+N/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest.o
+t1394043224
+s4544
+
+N/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest_info.o
+t1394043224
+s4896
+
+N/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/PrecompiledHeaders/CapstoneTest-Prefix-eoasqfgpebryktglpxsabehqlmao/CapstoneTest-Prefix.pch.pch
+t1394043224
+s98528
+
+N/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext
+t1394043224
+s102
+
+N/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/Info.plist
+t1394043224
+s1289
+
+N/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/MacOS/CapstoneTest
+t1394043224
+s9552
+
+N/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/Resources/en.lproj/InfoPlist.strings
+t1394043224
+s92
+
+CBuild AST from /Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest.c
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies77d765d8a0c7b841^cae16bd8a0c7b841^---0#1#1#--18"Check dependencies36"064ED528-FA7C-49DD-8BA3-354FDD09A17E-
+
+CCompileC DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest.o /Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s415736024.469354
+e415736024.538713
+r1
+xCompileC
+xDerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest.o
+x/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest.c
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/mach_types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/stdint.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/machine/types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/i386/types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/i386/_types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/cdefs.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/_types/_int8_t.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/_types/_int16_t.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/_types/_int32_t.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/_types/_int64_t.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/_types/_intptr_t.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/_types/_uintptr_t.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/_types/___offsetof.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/host_info.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/message.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/port.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/boolean.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/boolean.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/boolean.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/vm_types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/vm_param.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/kern_return.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/kern_return.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/kern_return.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/appleapiopts.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_statistics.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/time_value.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/host_notify.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/host_special_ports.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/memory_object_types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_prot.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_sync.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/exception_types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/exception.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/exception.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/thread_status.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_status.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_status.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/_structs.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/fp_reg.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_state.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/i386/eflags.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_state.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/processor_info.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/processor_info.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/processor_info.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/task_info.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/policy.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/Availability.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/AvailabilityInternal.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/task_policy.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/task_special_ports.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/thread_info.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/thread_policy.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/thread_special_ports.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/clock_types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_attributes.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_inherit.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_purgable.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_behavior.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_region.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_param.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/kmod.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_param.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/std_types.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest.c222"CompileC DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest.o CapstoneTest/CapstoneTest.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilera94d78d8a0c7b841^d1e989d8a0c7b841^---0#0#1#-19%DVTDocumentLocation2@79"file://localhost/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest.c0000000000000000^3588"CompileC DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest.o CapstoneTest/CapstoneTest.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/enzo/code/trunk/CapstoneTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -nostdinc -std=gnu99 -fno-builtin -Wno-trigraphs -msoft-float -O0 -fno-common -mkernel -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/CapstoneTest-generated-files.hmap -I/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/CapstoneTest-own-target-headers.hmap -I/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/CapstoneTest-all-target-headers.hmap -iquote /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/CapstoneTest-project-headers.hmap -I/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/DerivedSources/x86_64 -I/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/DerivedSources -F/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug -include /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/PrecompiledHeaders/CapstoneTest-Prefix-eoasqfgpebryktglpxsabehqlmao/CapstoneTest-Prefix.pch -MMD -MT dependencies -MF /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest.d --serialize-diagnostics /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest.dia -c /Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest.c -o /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest.o36"C349E061-EE44-4F36-8442-79CA91079F98-
+b2F374AC5-50BD-48CA-8885-79C4EE6C7796
+
+CCompileC DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest_info.o /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/DerivedSources/CapstoneTest_info.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s415736024.469359
+e415736024.539211
+r1
+xCompileC
+xDerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest_info.o
+x/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/DerivedSources/CapstoneTest_info.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/DerivedSources/CapstoneTest_info.c
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/mach_types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/stdint.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/machine/types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/i386/types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/i386/_types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/cdefs.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/_types/_int8_t.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/_types/_int16_t.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/_types/_int32_t.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/_types/_int64_t.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/_types/_intptr_t.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/_types/_uintptr_t.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/_types/___offsetof.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/host_info.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/message.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/port.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/boolean.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/boolean.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/boolean.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/vm_types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/vm_param.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/kern_return.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/kern_return.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/kern_return.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/sys/appleapiopts.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_statistics.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/time_value.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/host_notify.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/host_special_ports.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/memory_object_types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_prot.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_sync.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/exception_types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/exception.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/exception.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/thread_status.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_status.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_status.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/_structs.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/fp_reg.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_state.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/i386/eflags.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_state.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/processor_info.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/processor_info.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/processor_info.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/task_info.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/policy.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/Availability.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/AvailabilityInternal.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/task_policy.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/task_special_ports.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/thread_info.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/thread_policy.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/thread_special_ports.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/clock_types.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_attributes.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_inherit.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_purgable.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_behavior.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_region.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_param.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/kmod.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_param.h
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers/mach/std_types.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection167"Compile /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/DerivedSources/CapstoneTest_info.c323"CompileC DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest_info.o DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/DerivedSources/CapstoneTest_info.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler795878d8a0c7b841^ff098ad8a0c7b841^---0#0#1#-19%DVTDocumentLocation2@175"file://localhost/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/DerivedSources/CapstoneTest_info.c0000000000000000^3800"CompileC DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest_info.o DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/DerivedSources/CapstoneTest_info.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/enzo/code/trunk/CapstoneTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -nostdinc -std=gnu99 -fno-builtin -Wno-trigraphs -msoft-float -O0 -fno-common -mkernel -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/CapstoneTest-generated-files.hmap -I/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/CapstoneTest-own-target-headers.hmap -I/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/CapstoneTest-all-target-headers.hmap -iquote /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/CapstoneTest-project-headers.hmap -I/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/DerivedSources/x86_64 -I/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/DerivedSources -F/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug -include /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/PrecompiledHeaders/CapstoneTest-Prefix-eoasqfgpebryktglpxsabehqlmao/CapstoneTest-Prefix.pch -MMD -MT dependencies -MF /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest_info.d --serialize-diagnostics /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest_info.dia -c /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/DerivedSources/CapstoneTest_info.c -o /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest_info.o36"3F02134E-0236-42A2-9E53-ECF33D4390AA-
+b2F374AC5-50BD-48CA-8885-79C4EE6C7796
+
+CCopyStringsFile /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/Resources/en.lproj/InfoPlist.strings CapstoneTest/en.lproj/InfoPlist.strings
+s415736024.570822
+e415736024.573172
+r1
+xCopyStringsFile
+x/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/Resources/en.lproj/InfoPlist.strings
+xCapstoneTest/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy CapstoneTest/en.lproj/InfoPlist.strings165"CopyStringsFile DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/Resources/en.lproj/InfoPlist.strings CapstoneTest/en.lproj/InfoPlist.stringsba3092d8a0c7b841^1fbc92d8a0c7b841^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/en.lproj/InfoPlist.strings0000000000000000^470"CopyStringsFile DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/Resources/en.lproj/InfoPlist.strings CapstoneTest/en.lproj/InfoPlist.strings    cd /Users/enzo/code/trunk/CapstoneTest    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/Resources/en.lproj -- CapstoneTest/en.lproj/InfoPlist.strings36"445B781C-8E8D-4B84-BA4C-F5F3D5ABC726-
+b2F374AC5-50BD-48CA-8885-79C4EE6C7796
+
+CLd /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/MacOS/CapstoneTest normal x86_64
+s415736024.547881
+e415736024.562619
+r1
+xLd
+x/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/MacOS/CapstoneTest
+xnormal
+xx86_64
+d/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest.LinkFileList
+d/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest.o
+d/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/capstone/libcapstone.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libkmodc++.a
+d/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest_info.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libkmod.a
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.cc_kext.a
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Link /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/MacOS/CapstoneTest108"Ld DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/MacOS/CapstoneTest normal x86_64ac548cd8a0c7b841^630890d8a0c7b841^---0#0#1#--1425"Ld DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/MacOS/CapstoneTest normal x86_64    cd /Users/enzo/code/trunk/CapstoneTest    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug -L/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/capstone -F/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug -filelist /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest.LinkFileList -mmacosx-version-min=10.8 -lcapstone -Xlinker -kext -nostdlib -lkmodc++ /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest_info.o -lkmod -lcc_kext -Xlinker -dependency_info -Xlinker /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/Objects-normal/x86_64/CapstoneTest_dependency_info.dat -o /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/MacOS/CapstoneTest36"7D6E7EEE-18E2-4B00-A943-174093DC108B-
+b2F374AC5-50BD-48CA-8885-79C4EE6C7796
+
+CProcessInfoPlistFile /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/Info.plist /Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest-Info.plist
+s415736024.423646
+e415736024.426199
+r1
+xProcessInfoPlistFile
+x/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/Info.plist
+x/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Process /Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest-Info.plist141"ProcessInfoPlistFile DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/Info.plist CapstoneTest/CapstoneTest-Info.plist2b856cd8a0c7b841^02296dd8a0c7b841^---0#0#1#-19%DVTDocumentLocation2@88"file://localhost/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest-Info.plist0000000000000000^448"ProcessInfoPlistFile DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/Info.plist CapstoneTest/CapstoneTest-Info.plist    cd /Users/enzo/code/trunk/CapstoneTest    builtin-infoPlistUtility /Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest-Info.plist -expandbuildsettings -platform macosx -o /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext/Contents/Info.plist36"A6F98E10-1960-45DF-AF35-71B97ED2CD5D-
+b2F374AC5-50BD-48CA-8885-79C4EE6C7796
+
+CProcessPCH /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/PrecompiledHeaders/CapstoneTest-Prefix-eoasqfgpebryktglpxsabehqlmao/CapstoneTest-Prefix.pch.pch CapstoneTest/CapstoneTest-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s415736024.436017
+e415736024.461217
+r1
+xProcessPCH
+x/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/PrecompiledHeaders/CapstoneTest-Prefix-eoasqfgpebryktglpxsabehqlmao/CapstoneTest-Prefix.pch.pch
+xCapstoneTest/CapstoneTest-Prefix.pch
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile CapstoneTest/CapstoneTest-Prefix.pch248"ProcessPCH DerivedData/CapstoneTest/Build/Intermediates/PrecompiledHeaders/CapstoneTest-Prefix-eoasqfgpebryktglpxsabehqlmao/CapstoneTest-Prefix.pch.pch CapstoneTest/CapstoneTest-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerc7bb6fd8a0c7b841^a18079d8a0c7b841^---0#0#1#-19%DVTDocumentLocation2@88"file://localhost/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest-Prefix.pch0000000000000000^3489"ProcessPCH DerivedData/CapstoneTest/Build/Intermediates/PrecompiledHeaders/CapstoneTest-Prefix-eoasqfgpebryktglpxsabehqlmao/CapstoneTest-Prefix.pch.pch CapstoneTest/CapstoneTest-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/enzo/code/trunk/CapstoneTest    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -nostdinc -std=gnu99 -fno-builtin -Wno-trigraphs -msoft-float -O0 -fno-common -mkernel -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/CapstoneTest-generated-files.hmap -I/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/CapstoneTest-own-target-headers.hmap -I/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/CapstoneTest-all-target-headers.hmap -iquote /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/CapstoneTest-project-headers.hmap -I/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/DerivedSources/x86_64 -I/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/CapstoneTest.build/Debug/CapstoneTest.build/DerivedSources -F/Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug --serialize-diagnostics /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/PrecompiledHeaders/CapstoneTest-Prefix-eoasqfgpebryktglpxsabehqlmao/CapstoneTest-Prefix.pch.dia -MMD -MT dependencies -MF /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/PrecompiledHeaders/CapstoneTest-Prefix-eoasqfgpebryktglpxsabehqlmao/CapstoneTest-Prefix.pch.d -c /Users/enzo/code/trunk/CapstoneTest/CapstoneTest/CapstoneTest-Prefix.pch -o /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Intermediates/PrecompiledHeaders/CapstoneTest-Prefix-eoasqfgpebryktglpxsabehqlmao/CapstoneTest-Prefix.pch.pch36"4EC29415-D4C7-4777-A372-47CD2307B02E-
+b2F374AC5-50BD-48CA-8885-79C4EE6C7796
+
+CProcessPCH /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Index/PrecompiledHeaders/CapstoneTest-Prefix-bwavzjgkpdatydeiwoxofgczkmyk_ast/CapstoneTest-Prefix.pch.pch CapstoneTest/CapstoneTest-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/enzo/code/trunk/CapstoneTest/DerivedData/CapstoneTest/Build/Products/Debug/CapstoneTest.kext
+r0
+
