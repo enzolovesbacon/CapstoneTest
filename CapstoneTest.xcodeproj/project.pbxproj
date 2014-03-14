@@ -303,7 +303,7 @@
 				INFOPLIST_FILE = "CapstoneTest/CapstoneTest-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/capstone,
+					/Users/enzo/code/trunk/capstone,
 				);
 				MODULE_NAME = com.enzo.CapstoneTest;
 				MODULE_START = CapstoneTest_start;
@@ -324,7 +324,7 @@
 				INFOPLIST_FILE = "CapstoneTest/CapstoneTest-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/capstone,
+					/Users/enzo/code/trunk/capstone,
 				);
 				MODULE_NAME = com.enzo.CapstoneTest;
 				MODULE_START = CapstoneTest_start;
@@ -354,6 +354,7 @@
 				C64F367318C79C5100675E89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

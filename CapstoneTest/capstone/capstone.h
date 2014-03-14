@@ -21,7 +21,7 @@ extern "C" {
 
 // Capstone API version
 #define CS_API_MAJOR 2
-#define CS_API_MINOR 1
+#define CS_API_MINOR 2
 
 // Macro to create combined version which can be compared to
 // result of cs_version() API.
@@ -37,6 +37,7 @@ typedef enum cs_arch {
 	CS_ARCH_MIPS,		// Mips architecture
 	CS_ARCH_X86,		// X86 architecture (including x86 & x86-64)
 	CS_ARCH_PPC,		// PowerPC architecture
+	CS_ARCH_SPARC,		// Sparc architecture
 	CS_ARCH_MAX,
 	CS_ARCH_ALL = 0xFFFF,
 } cs_arch;
@@ -53,6 +54,8 @@ typedef enum cs_mode {
 	CS_MODE_THUMB = 1 << 4,	// ARM's Thumb mode, including Thumb-2
 	CS_MODE_MICRO = 1 << 4, // MicroMips mode (MIPS architecture)
 	CS_MODE_N64 = 1 << 5, // Nintendo-64 mode (MIPS architecture)
+
+	CS_MODE_V9 = 1 << 4, // SparcV9 mode (Sparc architecture)
 
 	CS_MODE_BIG_ENDIAN = 1 << 31	// big endian mode
 } cs_mode;
@@ -89,7 +92,7 @@ typedef enum cs_opt_value {
 	CS_OPT_SYNTAX_DEFAULT = 0, // Default asm syntax (CS_OPT_SYNTAX).
 	CS_OPT_SYNTAX_INTEL, // X86 Intel asm syntax - default on X86 (CS_OPT_SYNTAX).
 	CS_OPT_SYNTAX_ATT,   // X86 ATT asm syntax (CS_OPT_SYNTAX).
-	CS_OPT_SYNTAX_NOREGNAME, // PPC asm syntax: Prints register name with only number (CS_OPT_SYNTAX)
+	CS_OPT_SYNTAX_NOREGNAME, // Prints register name with only number (CS_OPT_SYNTAX)
 } cs_opt_value;
 
 
@@ -98,6 +101,7 @@ typedef enum cs_opt_value {
 #include "mips.h"
 #include "x86.h"
 #include "ppc.h"
+#include "sparc.h"
 
 // NOTE: All information in cs_detail is only available when CS_OPT_DETAIL = CS_OPT_ON
 typedef struct cs_detail {
@@ -117,6 +121,7 @@ typedef struct cs_detail {
 		cs_arm arm;		// ARM architecture (including Thumb/Thumb2)
 		cs_mips mips;	// MIPS architecture
 		cs_ppc ppc;	// PowerPC architecture
+		cs_sparc sparc;	// Sparc architecture
 	};
 } cs_detail;
 

@@ -9,7 +9,8 @@
 #include <mach/mach_types.h>
 #include <libkern/libkern.h>
 #include <sys/malloc.h>
-#include <kern/debug.h>
+#include <string.h>
+#include <sys/param.h>
 #include "capstone.h"
 
 kern_return_t CapstoneTest_start(kmod_info_t * ki, void *d);
@@ -17,42 +18,18 @@ kern_return_t CapstoneTest_stop(kmod_info_t *ki, void *d);
 
 #define CODE "\x55\x48\x8b\x05\xb8\x13\x00\x00"
 
-// silences warning "unresolved symbol ___strcat_chk"
-void __chk_fail (void)// __attribute__((__noreturn__));
-{
-	panic("inficere");
-}
-
-// silences warning "unresolved symbol ___strcat_chk"
-char *
-__strcat_chk (char *__restrict s, const char *__restrict append,
-	      size_t slen)
-{
-	char *save = s;
-	
-	/* Advance to the end. */
-	for (; *s; ++s)
-		if (__builtin_expect (slen-- == 0, 0))
-			__chk_fail ();
-	
-	do
-	{
-		/* Append the string.  Make sure we check before writing.  */
-		if (__builtin_expect (slen-- == 0, 0))
-			__chk_fail ();
-		
-	} while ((*s++ = *append++));
-	
-	return save;
-	
-}
+#pragma mark Memory functions
+/* Own memory functions (for capstone) */
 
 void *my_calloc(size_t num, size_t size)
 {
+	if(size == 0 || num == 0)
+		return NULL;
+	
 	size_t total = num * size;
 	void *p = _MALLOC(total, M_TEMP, M_WAITOK);
 	
-	if(!p)
+	if(p == NULL)
 		return NULL;
 	
 	return memset(p, 0, total);
@@ -60,7 +37,8 @@ void *my_calloc(size_t num, size_t size)
 
 void my_free(void *ptr)
 {
-	_FREE(ptr, M_TEMP);
+	if(ptr != NULL)
+		_FREE(ptr, M_TEMP);
 }
 
 void *my_malloc(size_t size)
@@ -68,16 +46,34 @@ void *my_malloc(size_t size)
 	return _MALLOC(size, M_TEMP, M_WAITOK);
 }
 
+struct _mhead {
+	size_t	mlen;
+	char	dat[0];
+};
+
 void *my_realloc(void *ptr, size_t size)
 {
-	if(size == 0)
-		return NULL;
+	struct _mhead	*hdr;
+	void		*newaddr;
+	size_t		alloc;
 	
-	void *newptr = _MALLOC(size, M_TEMP, M_WAITOK);
+	/* realloc(NULL, ...) is equivalent to malloc(...) */
+	if (ptr == NULL)
+		return (_MALLOC(size, M_TEMP, M_WAITOK));
 	
-	memcpy(newptr, ptr, size);
+	/* Allocate a new, bigger (or smaller) block */
+	if ((newaddr = _MALLOC(size, M_TEMP, M_WAITOK)) == NULL)
+		return (NULL);
 	
-	return newptr;
+	hdr = ptr;
+	--hdr;
+	alloc = hdr->mlen - sizeof (*hdr);
+	
+	/* Copy over original contents */
+	bcopy(ptr, newaddr, MIN(size, alloc));
+	_FREE(ptr, M_TEMP);
+	
+	return (newaddr);
 }
 
 kern_return_t test_function()
@@ -112,10 +108,22 @@ kern_return_t test_function()
 	
 	count = cs_disasm_ex(handle, (uint8_t *)CODE, sizeof(CODE)-1, 0x1000, 0, &insn);
 	
-	printf("[DEBUG] count: %zu\n", count);
-	
-	if(count > 0)
+	if(count > 0) {
+		size_t i, j;
+		
+		for (i = 0; i < count; i++) {
+			printf("0x%llx: ", insn[i].address);
+			
+			for(j = 0; j < 16; j++) {
+				printf("%x ", insn[i].bytes[j]);
+			}
+			printf("\n");
+		}
+		
+		cs_free(insn, count);
+		
 		return KERN_SUCCESS;
+	}
 	
 	return KERN_FAILURE;
 }
