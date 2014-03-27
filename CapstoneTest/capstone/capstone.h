@@ -9,10 +9,10 @@ extern "C" {
 #endif
 
 #include <stdint.h>
+#include <stdio.h>
 #include <stdarg.h>
 #include <stdbool.h>
-
-#include "diet.h"	// CAPSTONE_DIET
+#include <stdlib.h>
 
 #ifdef _MSC_VER
 #pragma warning(disable:4201)
@@ -38,11 +38,20 @@ typedef enum cs_arch {
 	CS_ARCH_X86,		// X86 architecture (including x86 & x86-64)
 	CS_ARCH_PPC,		// PowerPC architecture
 	CS_ARCH_SPARC,		// Sparc architecture
+	CS_ARCH_SYSZ,		// SystemZ architecture
 	CS_ARCH_MAX,
 	CS_ARCH_ALL = 0xFFFF,
 } cs_arch;
 
+// Support value to verify diet mode of the engine.
+// If cs_support(CS_SUPPORT_DIET) return True, the engine was compiled
+// in diet mode.
 #define CS_SUPPORT_DIET (CS_ARCH_ALL + 1)
+
+// Support value to verify X86 reduce mode of the engine.
+// If cs_support(CS_SUPPORT_X86_REDUCE) return True, the engine was compiled
+// in X86 reduce mode.
+#define CS_SUPPORT_X86_REDUCE (CS_ARCH_ALL + 2)
 
 // Mode type
 typedef enum cs_mode {
@@ -54,9 +63,7 @@ typedef enum cs_mode {
 	CS_MODE_THUMB = 1 << 4,	// ARM's Thumb mode, including Thumb-2
 	CS_MODE_MICRO = 1 << 4, // MicroMips mode (MIPS architecture)
 	CS_MODE_N64 = 1 << 5, // Nintendo-64 mode (MIPS architecture)
-
 	CS_MODE_V9 = 1 << 4, // SparcV9 mode (Sparc architecture)
-
 	CS_MODE_BIG_ENDIAN = 1 << 31	// big endian mode
 } cs_mode;
 
@@ -99,9 +106,10 @@ typedef enum cs_opt_value {
 #include "arm.h"
 #include "arm64.h"
 #include "mips.h"
-#include "x86.h"
 #include "ppc.h"
 #include "sparc.h"
+#include "systemz.h"
+#include "x86.h"
 
 // NOTE: All information in cs_detail is only available when CS_OPT_DETAIL = CS_OPT_ON
 typedef struct cs_detail {
@@ -122,6 +130,7 @@ typedef struct cs_detail {
 		cs_mips mips;	// MIPS architecture
 		cs_ppc ppc;	// PowerPC architecture
 		cs_sparc sparc;	// Sparc architecture
+		cs_sysz sysz;	// SystemZ architecture
 	};
 } cs_detail;
 

@@ -17,6 +17,8 @@
 		C64F369018C7A0CC00675E89 /* mips.h in Headers */ = {isa = PBXBuildFile; fileRef = C64F368818C7A0CC00675E89 /* mips.h */; };
 		C64F369118C7A0CC00675E89 /* ppc.h in Headers */ = {isa = PBXBuildFile; fileRef = C64F368918C7A0CC00675E89 /* ppc.h */; };
 		C64F369218C7A0CC00675E89 /* x86.h in Headers */ = {isa = PBXBuildFile; fileRef = C64F368A18C7A0CC00675E89 /* x86.h */; };
+		C6A9176818E4E64C009E7EF5 /* systemz.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A9176718E4E64C009E7EF5 /* systemz.h */; };
+		C6A9176A18E4E656009E7EF5 /* sparc.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A9176918E4E656009E7EF5 /* sparc.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		C64F368818C7A0CC00675E89 /* mips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mips.h; path = capstone/mips.h; sourceTree = "<group>"; };
 		C64F368918C7A0CC00675E89 /* ppc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ppc.h; path = capstone/ppc.h; sourceTree = "<group>"; };
 		C64F368A18C7A0CC00675E89 /* x86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = x86.h; path = capstone/x86.h; sourceTree = "<group>"; };
+		C6A9176718E4E64C009E7EF5 /* systemz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = systemz.h; path = capstone/systemz.h; sourceTree = "<group>"; };
+		C6A9176918E4E656009E7EF5 /* sparc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sparc.h; path = capstone/sparc.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				C64F368818C7A0CC00675E89 /* mips.h */,
 				C64F368918C7A0CC00675E89 /* ppc.h */,
 				C64F368A18C7A0CC00675E89 /* x86.h */,
+				C6A9176918E4E656009E7EF5 /* sparc.h */,
+				C6A9176718E4E64C009E7EF5 /* systemz.h */,
 			);
 			name = capstone;
 			sourceTree = "<group>";
@@ -129,6 +135,8 @@
 				C64F368E18C7A0CC00675E89 /* capstone.h in Headers */,
 				C64F369218C7A0CC00675E89 /* x86.h in Headers */,
 				C64F368F18C7A0CC00675E89 /* diet.h in Headers */,
+				C6A9176A18E4E656009E7EF5 /* sparc.h in Headers */,
+				C6A9176818E4E64C009E7EF5 /* systemz.h in Headers */,
 				C64F368D18C7A0CC00675E89 /* arm64.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,7 +311,7 @@
 				INFOPLIST_FILE = "CapstoneTest/CapstoneTest-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/enzo/code/trunk/capstone,
+					/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/capstone,
 				);
 				MODULE_NAME = com.enzo.CapstoneTest;
 				MODULE_START = CapstoneTest_start;
@@ -324,7 +332,7 @@
 				INFOPLIST_FILE = "CapstoneTest/CapstoneTest-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/enzo/code/trunk/capstone,
+					/Users/enzo/code/trunk/CapstoneTest/CapstoneTest/capstone,
 				);
 				MODULE_NAME = com.enzo.CapstoneTest;
 				MODULE_START = CapstoneTest_start;
