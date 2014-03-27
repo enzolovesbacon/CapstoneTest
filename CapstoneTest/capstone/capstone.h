@@ -9,10 +9,8 @@ extern "C" {
 #endif
 
 #include <stdint.h>
-#include <stdio.h>
 #include <stdarg.h>
 #include <stdbool.h>
-#include <stdlib.h>
 
 #ifdef _MSC_VER
 #pragma warning(disable:4201)
